@@ -5,51 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="https://www.jamesedition.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LeRoy Residence | Luxury Real Estate & Lifestyle</title>
-    <meta name="description" content="Descubre las propiedades más exclusivas de la Octava Región y el mundo. LeRoy Residence: Viviendo lo Extraordinario.">
     
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@200;300;400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Manrope"', 'sans-serif'],
-              inter: ['"Inter"', 'sans-serif'],
-              prata: ['"Prata"', 'serif'],
-            },
-            colors: {
-              'leroy-black': '#1a1a1a',
-              'leroy-orange': '#ff6b00',
-              'leroy-gray': '#f9f9f9',
-              'leroy-border': '#e5e7eb',
-            },
-            letterSpacing: {
-              'ultra-wide': '0.3em',
-              'premium': '0.15em',
-            }
-          }
-        }
-      }
-    </script>
     <style>
-      body { font-family: 'Manrope', sans-serif; background-color: #ffffff; color: #1a1a1a; -webkit-font-smoothing: antialiased; margin: 0; }
-      h1, h2, h3, h4 { font-family: 'Playfair Display', serif; font-weight: 500; }
-      ::-webkit-scrollbar { width: 6px; }
-      ::-webkit-scrollbar-track { background: #f1f1f1; }
-      ::-webkit-scrollbar-thumb { background: #ff6b00; }
-      .fade-in { animation: fadeIn 0.8s ease-out forwards; }
-      @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      body { font-family: 'Manrope', sans-serif; margin: 0; background: #ffffff; }
+      #root { min-height: 100vh; }
     </style>
-    
-    <link rel="stylesheet" href="/index.css">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
